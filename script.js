@@ -1,12 +1,14 @@
 const wrapper = document.querySelector(".wrapper");
 const question = document.querySelector(".question");
+const question2 = document.querySelector(".question2");
 const gif = document.querySelector(".gif");
 const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
 
 yesBtn.addEventListener("click", () => {
-    question.innerHTML = "I love you too! 😘";
-    gif.src = "https://i.pinimg.com/originals/55/3d/42/553d42bea9b10e0662a05aa8726fc7f4.gif";
+    question.innerHTML = "กดแล้วต้องไปนะครับ 55555";
+    question2.innerHTML = "ขอบคุณนะครับ 🫶🏻";
+    gif.src = "https://media1.tenor.com/m/oCBoAcpE9xAAAAAd/cool-fun.gif";
 });
 
 noBtn.addEventListener("mouseover", () => {
